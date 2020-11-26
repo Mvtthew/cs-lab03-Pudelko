@@ -193,7 +193,7 @@ namespace PudelkoUnitTests
 
         // ---
 
-        public static IEnumerable<object[]> DataSet1Meters_ArgumentOutOfRangeEx => new List<object[]>
+        public static System.Collections.Generic.IEnumerable<object[]> DataSet1Meters_ArgumentOutOfRangeEx => new List<object[]>
         {
             new object[] {-1.0, 2.5, 3.1},
             new object[] {1.0, -2.5, 3.1},
@@ -298,7 +298,7 @@ namespace PudelkoUnitTests
         }
 
 
-        public static IEnumerable<object[]> DataSet2Meters_ArgumentOutOfRangeEx => new List<object[]>
+        public static System.Collections.Generic.IEnumerable<object[]> DataSet2Meters_ArgumentOutOfRangeEx => new List<object[]>
         {
             new object[] {-1.0, 2.5},
             new object[] {1.0, -2.5},
